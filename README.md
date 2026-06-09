@@ -2,75 +2,133 @@
 
 ## Project Overview
 
-This project is a simple sales analytics dashboard built in Microsoft Excel.
+This project is an interactive Sales Analytics Dashboard built in Microsoft Excel to transform raw sales data into meaningful business insights.
 
-The aim of the project was to turn raw sales data into a clean and easy-to-understand dashboard. Instead of going through the dataset row by row, the dashboard helps users quickly understand the main sales performance, product revenue, order trends, payment methods, coupon usage, and order status.
+The dashboard was designed to help users quickly understand sales performance, identify trends, monitor key business metrics, and make data-driven decisions without manually reviewing hundreds of transaction records.
 
-This project also helped me practise important Excel skills such as pivot tables, pivot charts, slicers, KPI cards, and dashboard design.
+Through this project, I applied Excel skills such as Pivot Tables, Pivot Charts, KPI Design, Slicers, Dashboard Development, and Data Visualization.
+
+---
 
 ## Tool Used
 
-- Microsoft Excel
+* Microsoft Excel
+
+---
 
 ## Dataset
 
-The dataset used for this project is `Sales_Data`.
+**Dataset Name:** Sales_Data
 
-## What the Dashboard Shows
+The dataset contains 1,200 sales transactions and includes information such as:
 
-The dashboard includes important sales metrics such as:
+* Products
+* Orders
+* Revenue
+* Referral Sources
+* Order Status
+* Order Dates
 
-- Total Orders
-- Total Revenue
-- Average Order Value
-- Top Revenue Product
+---
 
-It also includes charts that show:
+## Business Questions Answered
 
-- Monthly order trend
-- Order count by status
-- Payment method usage
-- Revenue by product
-- Revenue by coupon code
+This dashboard was created to answer the following business questions:
 
-## Interactive Features
+* How many orders were recorded?
+* How much revenue was generated?
+* What is the average value of an order?
+* Which product generated the highest revenue?
+* Which referral source generated the most customer activity?
+* How did order activity change throughout the year?
+* What is the distribution of order statuses?
 
-I added slicers to make the dashboard interactive.
+---
 
-The slicers allow users to filter the dashboard by:
+## Dashboard Features
 
-- Month Name
-- Product
-- Coupon Code
+### Key Performance Indicators (KPIs)
 
-This makes it easier to focus on a particular month, product, or coupon category.
+* Total Revenue: €1.26M
+* Total Orders: 1,200
+* Average Order Value: €1,053.97
+* Delivered Order Rate: 19%
+* Top Product: Chair
+* Top Referral Source: Instagram
 
-## Project Steps
+### Visualizations
 
-To complete the project, I followed these steps:
+* Revenue by Product
+* Orders by Status
+* Monthly Order Trend
+* Revenue by Referral Source
 
-1. Imported the sales dataset into Excel.
-2. Checked and prepared the data for analysis.
-3. Created pivot tables to summarise the data.
-4. Created pivot charts from the pivot tables.
-5. Designed KPI cards for the main business figures.
-6. Added slicers to make the dashboard interactive.
-7. Arranged the charts and cards into a clean dashboard layout.
-8. Reviewed the dashboard to make sure it was clear and easy to use.
+### Interactive Features
+
+The dashboard includes slicers that allow users to filter the analysis by:
+
+* Month Name
+* Product
+
+---
+
+## Project Workflow
+
+1. Imported the dataset into Microsoft Excel.
+2. Reviewed and prepared the data for analysis.
+3. Created Pivot Tables to summarize business metrics.
+4. Built Pivot Charts to visualize key trends.
+5. Designed KPI cards for important performance indicators.
+6. Added slicers to improve interactivity.
+7. Arranged charts and KPIs into a dashboard layout.
+8. Applied formatting and design principles to improve readability.
+9. Generated business insights and recommendations from the analysis.
+
+---
 
 ## Key Insights
 
-Some of the insights from the dashboard include:
+The analysis revealed several important findings:
 
-- Chair generated the highest revenue.
-- Order activity changed across the months.
-- The dataset contains different order statuses such as shipped, returned, pending, cancelled, and delivered.
-- Customers used different payment methods, including gift card, debit card, online payment, credit card, and cash.
-- Coupon codes contributed differently to revenue.
+* Chair was the highest revenue-generating product, contributing approximately €195.6K in revenue.
+* Instagram generated the highest customer activity with 259 orders, making it the strongest referral channel.
+* June recorded the highest monthly order volume, indicating a peak sales period.
+* Cancelled orders slightly exceeded returned orders, highlighting a potential area for operational improvement.
+* Total revenue reached €1.26M from 1,200 sales transactions.
+
+---
+
+## Recommendations
+
+Based on the analysis, the following recommendations can be made:
+
+* Increase marketing investment in Instagram and Email channels, as they generated the highest customer activity.
+* Investigate the causes of cancelled and returned orders to improve customer satisfaction and reduce revenue leakage.
+* Prioritize high-performing products such as Chair, Printer, and Laptop in future promotional campaigns.
+* Study the factors that contributed to the strong performance in June and replicate successful strategies during other periods.
+* Continue monitoring sales trends and referral performance to support data-driven business decisions.
+
+---
 
 ## Dashboard Preview
 
 ![Sales Analytics Dashboard](sales-analytics-dashboard.png)
+
+---
+
+## Skills Demonstrated
+
+* Data Cleaning
+* Pivot Tables
+* Pivot Charts
+* KPI Design
+* Dashboard Development
+* Data Visualization
+* Business Analysis
+* Data Storytelling
+* Excel Slicers
+
+---
 
 ## Files in This Repository
 
@@ -82,4 +140,13 @@ sales-analytics-dashboard-excel/
 ├── Sales_Analytics_Dashboard.xlsx
 ├── sales-analytics-dashboard.png
 └── dataset/
-    └── Sales_Data.csv.
+    └── Sales_Data.csv
+```
+
+---
+
+## Author
+
+**Opeyemi Lawal**
+
+Data Analytics Portfolio Project developed using Microsoft Excel.
